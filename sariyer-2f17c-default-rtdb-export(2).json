@@ -1,0 +1,239 @@
+{
+  "deliveryPoints": {
+    "-OWKPK5tN2zkhjfRCiv3": {
+      "name": "Bim Serdivan",
+      "qrCode": "BIM_SRD"
+    },
+    "-OWKPNdlTXj1R5RJOXzO": {
+      "name": "Bim Hendek",
+      "qrCode": "BIM_HDK"
+    }
+  },
+  "productionLines": {
+    "-OWKHcf8zs-SxBl4DMAO": {
+      "name": "Teneke",
+      "qrCode": "TK1"
+    },
+    "-OWKPVNBac9U7OVNhIPr": {
+      "name": "Tetrapak",
+      "qrCode": "TRP_1"
+    },
+    "-OWKPXNGtJmfDpCmqyZv": {
+      "name": "Gazlı_1",
+      "qrCode": "GZL_1"
+    },
+    "-OWKPYwi83ImOnTZ7KiQ": {
+      "name": "Cam",
+      "qrCode": "CAM"
+    }
+  },
+  "products": {
+    "-OW5RY0cvCH_Cwrk49fY": {
+      "name": "Sarıyer Kola",
+      "qrCode": "SR_KL",
+      "stock": 479
+    },
+    "-OWKHZMrMOTmW9wGelaH": {
+      "name": "Juss",
+      "qrCode": "JUS1",
+      "stock": 10
+    },
+    "-OWKLzXSFfT_p0_Jdiip": {
+      "name": "Sarıyer Portakal",
+      "qrCode": "SR_PRT"
+    },
+    "-OWKO3JhDqTFwgAVFxdX": {
+      "name": "ihracat_fason",
+      "qrCode": "ihr_fs",
+      "stock": 15
+    },
+    "-OWKPjLZQ6LonfSD3iT2": {
+      "name": "BlackBruin",
+      "qrCode": "BB_1",
+      "stock": 16
+    },
+    "-OWPTd-IL1JpPAuush9L": {
+      "name": "Sarıyer_kutu_kola _330ml_24lu",
+      "qrCode": "SRY330K24",
+      "stock": 3
+    },
+    "-OWP_QqGI2g2j3SQZZUv": {
+      "name": "Skyfall",
+      "qrCode": "SKY",
+      "stock": 1
+    }
+  },
+  "settings": {
+    "lastProductionNumber": 12
+  },
+  "tasks": {
+    "-OWdOuvX1DTg1FpgjC8A": {
+      "assignedTo": "0QEFmH0CcgZ8wJ6qXR5kg7YlEu02",
+      "createdAt": "2025-08-02T06:10:59.543Z",
+      "expirationDate": "2025-08-15T21:00:00.000Z",
+      "from": "Teneke",
+      "fromQrCode": "TK1",
+      "palletQRCodes": [
+        "SR_KL_10_1_Depo 1_1754115059543_kn5nk2hpb",
+        "SR_KL_10_2_Depo 1_1754115059543_qmakjapit",
+        "SR_KL_10_3_Depo 1_1754115059543_dam0ad2ik"
+      ],
+      "palletQuantity": 3,
+      "productName": "Sarıyer Kola",
+      "productQrCode": "SR_KL",
+      "productionNumber": 10,
+      "status": "tamamlandı",
+      "taskType": "productionToWarehouse",
+      "to": "Depo 1",
+      "toQrCode": "D1"
+    },
+    "-OWjgPCgJ5ixNtdaxCHi": {
+      "assignedTo": "0QEFmH0CcgZ8wJ6qXR5kg7YlEu02",
+      "createdAt": "2025-08-03T11:29:29.535Z",
+      "expirationDate": "2025-08-11T21:00:00.000Z",
+      "from": "Gazlı_1",
+      "fromQrCode": "GZL_1",
+      "palletQRCodes": [
+        "SRY330K24_11_1_ihracat_alanı_1754220569534_d8m7pyzi6",
+        "SRY330K24_11_2_ihracat_alanı_1754220569534_h4h0s9uvz",
+        "SRY330K24_11_3_ihracat_alanı_1754220569534_yogr9nbde"
+      ],
+      "palletQuantity": 3,
+      "productName": "Sarıyer_kutu_kola _330ml_24lu",
+      "productQrCode": "SRY330K24",
+      "productionNumber": 11,
+      "status": "tamamlandı",
+      "taskType": "productionToWarehouse",
+      "to": "ihracat_alanı",
+      "toQrCode": "ihr_1"
+    },
+    "-OWji9awXAshrFe26l9Z": {
+      "assignedTo": "0QEFmH0CcgZ8wJ6qXR5kg7YlEu02",
+      "createdAt": "2025-08-03T11:37:09.902Z",
+      "expirationDate": "2025-08-19T21:00:00.000Z",
+      "from": "Gazlı_1",
+      "fromQrCode": "GZL_1",
+      "palletQRCodes": [
+        "BB_1_12_1_ihracat_alanı_1754221029902_374ryxamm",
+        "BB_1_12_2_ihracat_alanı_1754221029902_9f27lklef",
+        "BB_1_12_3_ihracat_alanı_1754221029902_s5o8mwm37"
+      ],
+      "palletQuantity": 3,
+      "productName": "BlackBruin",
+      "productQrCode": "BB_1",
+      "productionNumber": 12,
+      "status": "teslim_alma_dogrulama",
+      "taskType": "productionToWarehouse",
+      "to": "ihracat_alanı",
+      "toQrCode": "ihr_1"
+    }
+  },
+  "trucks": {
+    "-OW6r0_2n4_QdnthEDNW": {
+      "name": "34IST34",
+      "qrCode": "TIR1"
+    },
+    "-OWKPQWlV1lBwnAs93Vh": {
+      "name": "Peron 1",
+      "qrCode": "PR_1"
+    },
+    "-OWKPmp551VcPzqtQXM-": {
+      "name": "Peron 2",
+      "qrCode": "PR_2"
+    }
+  },
+  "users": {
+    "0QEFmH0CcgZ8wJ6qXR5kg7YlEu02": {
+      "email": "sofor3@example.com",
+      "name": "sefa",
+      "role": "sofor"
+    },
+    "Rp1PJo7Harcg84pdaq8e1rUeZiB3": {
+      "name": "hüseyin",
+      "role": "sofor"
+    },
+    "cSwuE5qrwfZZp6xBloPAaWSOdXi2": {
+      "email": "kaplanomer5461@gmail.com",
+      "name": "ömer",
+      "role": "sofor"
+    },
+    "h4RZCtuY7zU8b60TgwpdLPkUXqu1": {
+      "email": "depo@example.com",
+      "role": "depo"
+    },
+    "vvTa44lWYvTsAFVkA9kjHxSRU1u1": {
+      "name": "eren",
+      "role": "sofor"
+    }
+  },
+  "warehouses": {
+    "-OW6qxalggAr1vqHAn09": {
+      "inventory": {
+        "-OW5RY0cvCH_Cwrk49fY": {
+          "batches": {
+            "-OWU5jV9oyOGordCrBuP": {
+              "expirationDate": "2025-08-30T06:10:59.967Z",
+              "palletQuantity": 10,
+              "productionNumber": "TEST001"
+            },
+            "batch_1753942526800_5deilcjei": {
+              "palletQuantity": 351,
+              "productionNumber": "N/A"
+            },
+            "batch_1753942527028_nqp1dl10p": {
+              "expirationDate": "2026-01-19T21:00:00.000Z",
+              "palletQuantity": 100,
+              "productionNumber": 1
+            },
+            "batch_1753942527336_62w0bi2ok": {
+              "expirationDate": "2025-08-06T21:00:00.000Z",
+              "palletQuantity": 10,
+              "productionNumber": 3
+            }
+          },
+          "totalPallets": 471
+        },
+        "-OWKHZMrMOTmW9wGelaH": {
+          "batches": {
+            "batch_1753942527192_27kmno1mv": {
+              "expirationDate": "7200-01-19T21:00:00.000Z",
+              "palletQuantity": 10,
+              "productionNumber": 2
+            }
+          },
+          "totalPallets": 10
+        },
+        "-OWKPjLZQ6LonfSD3iT2": {
+          "batches": {
+            "batch_1753942567603_sqqckmilf": {
+              "expirationDate": "2025-07-30T21:00:00.000Z",
+              "palletQuantity": 13,
+              "productionNumber": 5
+            }
+          },
+          "totalPallets": 13
+        },
+        "-OWP_QqGI2g2j3SQZZUv": {
+          "batches": {
+            "batch_1753942527498_vsu3n6m6t": {
+              "expirationDate": "2025-07-30T21:00:00.000Z",
+              "palletQuantity": 1,
+              "productionNumber": 4
+            }
+          },
+          "totalPallets": 1
+        }
+      },
+      "name": "Depo 1",
+      "qrCode": "D1"
+    },
+    "-OWKHfnt3lwAL7uJoxCx": {
+      "name": "A",
+      "qrCode": "A1"
+    },
+    "-OWKOB3O2PqERMRDNLDq": {
+      "name": "ihracat_alanı",
+      "qrCode": "ihr_1"
+    }
+  }
+}
