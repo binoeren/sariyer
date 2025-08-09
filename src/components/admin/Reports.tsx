@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ref, get } from 'firebase/database';
 import { db } from '../../firebase/config';
-import { Task, Product, User, Truck } from '../../types';
+import { Task, Product, User } from '../../types';
 import { 
   BarChart3, 
   Package, 
